@@ -14,4 +14,4 @@ It's possible add in package.json the line:
 
 "type": "module"
 
-this way bypass the extension "mjs" and will able js to work with ECMAScript
+this way bypass the extension .mjs and will able .js to work with ECMAScript
