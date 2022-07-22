@@ -1,10 +1,10 @@
-import { createServer } from "node:http";
+const http = require('http')
 
-const server = createServer( (req,res) => {
+const server = http.createServer( (req,res) => {
   console.log('The server is running')
   res.statusCode = 200;
   res.setHeader('Content-type', 'text/html')
-  response.end(
+  res.end(
     "<html><body><h1>Welcome to the World Wide Web!</h1></body></html>"
   );
 });
